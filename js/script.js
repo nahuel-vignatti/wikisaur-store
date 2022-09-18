@@ -10,12 +10,12 @@ let fechaAcceso = document.getElementById("fechaAcceso");
 let btnOrdenar = document.getElementById("btnOrdenar");
 let btnFiltrar = document.getElementById("btnFiltrar");
 let btnReset = document.getElementById("btnReset");
-let sumatoria = document.getElementById("sumatoria");//sumatoria del total de la compra
-let cantProdu = document.getElementById("cantProdu");//cantidad de items ene l carrito
+let sumatoria = document.getElementById("sumatoria"); //sumatoria del total de la compra
+let cantProdu = document.getElementById("cantProdu"); //cantidad de items ene l carrito
 let badgeCarrito = document.getElementById("badgeCarrito");
 let btnVaciar = document.getElementById("vaciarCarrito");
 let btnComprar = document.getElementById("comprarCarrito");
-const url = '../js/db.json';
+const url = "../js/db.json";
 let totalProductos = 0;
 /* ===================================================== */
 
@@ -90,12 +90,10 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     };
     //Boton que resetea los el filtrado y el orden y vuelve a mostrar la coleccion original
-    btnReset.onclick = function (){
+    btnReset.onclick = function () {
       gestor.resetFiltros();
-    }
+    };
   };
 
   cargarBase();
 });
-
-
