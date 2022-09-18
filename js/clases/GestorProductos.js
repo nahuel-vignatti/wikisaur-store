@@ -177,7 +177,7 @@ class GestorProductos {
   resetFiltros(){
     coleccion_mostrada = coleccion_productos;
     this.cargaDom(coleccion_productos);
-    console.log(coleccion_productos);
+    
   }
 }
 
