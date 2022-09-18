@@ -1,3 +1,9 @@
+/* ==================== IMPORTANTE ====================================================
+   Este archivo de CSS fue creado con SASS para el tp final de desarrollo web
+   no contiene estilos de lo hecho para JS. Todos los estilos del trabajo final de
+   JS estan en stylejs.css, el cual cree aparte para que sea mas facil diferenciarlo
+   ===================================================================================== */
+
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,600");
 .img_responsive, .pie__logo, .parrafo__info__img, .intro__img, .secciones__articulo__img, .parrafopaleo__info__img {
